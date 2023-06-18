@@ -2,7 +2,7 @@
 
 # FreeSpace – macOS Menubar App
 
-Current release: [FreeSpace (Version 0.2.0)](https://github.com/WasAlexHere/FreeSpaceApp/releases/tag/0.2.0)
+Current release: [FreeSpace (Version 1.0.0)](https://github.com/WasAlexHere/FreeSpaceApp/releases/tag/1.0.0)
 
 ![Screenshot](screenshot.png)
 
