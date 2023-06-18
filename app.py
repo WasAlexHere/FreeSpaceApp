@@ -2,9 +2,9 @@ import shutil
 import rumps
 
 
-class FreeSpaceApp(rumps.App):
+class FreeSpace(rumps.App):
     def __init__(self):
-        super(FreeSpaceApp, self).__init__("FreeSpaceApp")
+        super(FreeSpace, self).__init__("FreeSpaceApp")
         # rumps.debug_mode(True)
 
         self.total, self.used, self.free = shutil.disk_usage("/")
@@ -21,4 +21,4 @@ class FreeSpaceApp(rumps.App):
 
 
 if __name__ == "__main__":
-    FreeSpaceApp().run()
+    FreeSpace().run()

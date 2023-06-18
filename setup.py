@@ -1,6 +1,6 @@
 from setuptools import setup
 
-APP = ["FreeSpaceApp.py"]
+APP = ["app.py"]
 OPTIONS = {
     "argv_emulation": True,
     "iconfile": "icon.icns",
@@ -13,7 +13,7 @@ OPTIONS = {
 
 setup(
     app=APP,
-    name="FreeSpaceApp",
+    name="FreeSpace",
     options={"py2app": OPTIONS},
     setup_requires=["py2app"],
     install_requires=OPTIONS["packages"]
