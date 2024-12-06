@@ -5,7 +5,7 @@ import rumps
 class FreeSpace(rumps.App):
     def __init__(self):
         super(FreeSpace, self).__init__("FreeSpaceApp")
-        rumps.debug_mode(True)
+        # rumps.debug_mode(True)
 
         self.check_free_space = rumps.Timer(self.show_space, 10)
         self.check_free_space.start()
